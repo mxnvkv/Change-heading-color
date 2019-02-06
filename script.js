@@ -1,4 +1,4 @@
-const form = document.querySelector('.form');
+const formachka = document.querySelector('.form');
 const submitText = document.querySelector('input[type=text]');
 const submit = document.querySelector('input[type=submit]');
 const output = document.querySelector('.output');
@@ -10,3 +10,5 @@ submit.addEventListener('click', (e) => {
     output.appendChild(li);
     submitText.value = '';
 });
+
+// changhed form to formachka
